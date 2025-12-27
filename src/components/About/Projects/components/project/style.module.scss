@@ -1,0 +1,129 @@
+.project {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px 50px 0px;
+  border-top: 1px solid rgb(201, 201, 201);
+  cursor: pointer;
+  transition: all 0.2s;
+
+  .heading {
+    font-size: 50px;
+    margin: 0px;
+    font-weight: 400;
+    transition: all 0.4s;
+  }
+
+  .para {
+    transition: all 0.4s;
+    font-weight: 300;
+  }
+
+  &:last-of-type {
+    border-bottom: 1px solid rgb(201, 201, 201);
+  }
+
+  &:hover {
+    opacity: 0.5;
+
+    .heading {
+      transform: translateX(-10px);
+    }
+
+    .para {
+      transform: translateX(10px);
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .project {
+    .heading {
+      font-size: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .project {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+    border-top: 1px solid rgb(201, 201, 201);
+    cursor: pointer;
+    transition: all 0.2s;
+
+    .heading {
+      font-size: 50px;
+      margin: 0px;
+      font-weight: 400;
+      transition: all 0.4s;
+    }
+
+    .para {
+      transition: all 0.4s;
+      font-weight: 300;
+    }
+
+    &:last-of-type {
+      border-bottom: 1px solid rgb(201, 201, 201);
+    }
+
+    &:hover {
+      opacity: 0.5;
+
+      .heading {
+        transform: translateX(-10px);
+      }
+
+      .para {
+        transform: translateX(10px);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .project {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10px 50px 10px;
+    border-top: 1px solid rgb(201, 201, 201);
+    cursor: pointer;
+    transition: all 0.2s;
+
+    .heading {
+      font-size: 30px;
+      margin: 0px;
+      font-weight: 400;
+      transition: all 0.4s;
+    }
+
+    .para {
+      transition: all 0.4s;
+      font-size: 12px;
+      font-weight: 300;
+    }
+
+    &:last-of-type {
+      border-bottom: 1px solid rgb(201, 201, 201);
+    }
+
+    &:hover {
+      opacity: 0.5;
+
+      .heading {
+        transform: translateX(-10px);
+      }
+
+      .para {
+        transform: translateX(10px);
+      }
+    }
+  }
+}

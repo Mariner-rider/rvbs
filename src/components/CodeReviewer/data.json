@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "repository": "John Doe",
+    "email": "johndoe@example.com",
+    "phone": "123-456-7890"
+  },
+  {
+    "id": 2,
+    "repository": "Jane Smith",
+    "email": "janesmith@example.com",
+    "phone": "987-654-3210"
+  },
+  {
+    "id": 3,
+    "repository": "Michael Johnson",
+    "email": "michaeljohnson@example.com",
+    "phone": "555-123-4567"
+  },
+  {
+    "id": 4,
+    "repository": "Emily Wilson",
+    "email": "emilywilson@example.com",
+    "phone": "999-888-7777"
+  },
+  {
+    "id": 5,
+    "repository": "Daniel Lee",
+    "email": "daniellee@example.com",
+    "phone": "444-555-6666"
+  },
+  {
+    "id": 6,
+    "repository": "Olivia Martinez",
+    "email": "oliviamartinez@example.com",
+    "phone": "777-999-1111"
+  },
+  {
+    "id": 7,
+    "repository": "William Thompson",
+    "email": "williamthompson@example.com",
+    "phone": "222-333-4444"
+  }
+]

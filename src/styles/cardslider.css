@@ -1,0 +1,144 @@
+.section-2 {
+  font-size: 3.5rem;
+  /* padding: 5rem 20px; */
+  letter-spacing: -0.01em;
+  line-height: 1;
+  position: relative;
+}
+.section-2 .scroll-card {
+  position: sticky;
+  top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-card {
+  padding-top: 3.5rem;
+  height: 100vh;
+}
+.left-card .left-title {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #8082ff;
+  margin-bottom: 1em;
+}
+.left-card .left-title svg {
+  margin-right: 6px;
+}
+.left-card .left-heading {
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+  padding-right: 17%;
+}
+.left-card .left-content {
+  padding-right: 25%;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  color: #adadad;
+  line-height: 1.5;
+}
+.right-card {
+  display: flex;
+  justify-content: space-between;
+}
+.right-card .card {
+  border-radius: 0.8rem;
+  color: #adadad;
+  height: 60vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card .card-pic {
+  height: 50%;
+}
+.card .card-info {
+  height: 100%;
+  padding: 0 2.5rem;
+}
+.card .card-info .card-title {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.card .card-info .card-description {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.scroll {
+  height: 53vh;
+  width: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scroll .scroll-bg {
+  background-color: #232323;
+  width: 5px;
+  height: 100%;
+  margin: 8px 4px;
+  margin-bottom: -20px;
+  border-radius: 10px;
+}
+.scroll .scroll-bg .scroll-bar {
+  width: 5px;
+  background-color: #8082ff;
+  position: relative;
+  height: 1px;
+  background: linear-gradient(90deg, #fff, transparent);
+  border-radius: 10px;
+}
+.scroll .scroll-bg .scroll-bar::after {
+  content: " ";
+  top: 100%;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1),
+    0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 0.1);
+}
+.scroll .page {
+  font-size: 0.8rem;
+  color: #adadad;
+  opacity: 0.5;
+}
+
+@media (min-width: 1020px) and (max-width: 1030px) {
+  .right-card .card {
+    height: 60vh;
+  }
+  .scroll {
+    height: 50vh;
+    width: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .right-card .card {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .section-2 .scroll-card {
+    position: sticky;
+    top: 65px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .right-card .card {
+    height: 50vh;
+  }
+  .card .card-info {
+    height: 100%;
+    padding: 0 2rem;
+  }
+}

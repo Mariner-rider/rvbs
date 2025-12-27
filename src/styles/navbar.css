@@ -1,0 +1,83 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  padding-top: 2rem;
+  height: 50px;
+  position: fixed;
+}
+.navbar .brand {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar .brand p {
+  font-size: 22px;
+}
+.navbar .brand .logo {
+  height: 40px;
+  border-radius: 50%;
+}
+.navbar .btn {
+  transition: 0.5s;
+  background-color: white;
+  font-size: 18px;
+  padding: 0.815rem 1.232rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border-radius: 0.7rem;
+  color: black;
+  cursor: pointer;
+}
+.navbar .btn:hover {
+  transition: 0.5s;
+  background-color: #8082ff;
+}
+
+.navbar .btn span {
+  position: relative;
+  display: block;
+  perspective: 108px;
+}
+
+.btn span:first-of-type em {
+  transform-origin: top;
+}
+
+.btn:hover span:first-of-type em {
+  opacity: 0;
+  transform: rotateX(90deg) scaleX(0.9) translate3d(0, -10px, 0);
+}
+
+.btn span em {
+  font-style: normal;
+  display: inline-block;
+  font-size: 1.025rem;
+  will-change: transform, opacity, transition;
+}
+
+.btn span em,
+.btn span:nth-of-type(2) em {
+  transition: transform 0.55s cubic-bezier(0.645, 0.045, 0.355, 1),
+    opacity 0.35s linear 0.2s;
+}
+
+.btn span:nth-of-type(2) {
+  position: absolute;
+}
+
+.btn:hover span:nth-of-type(2) em {
+  opacity: 1;
+  transform: rotateX(0deg) scaleX(1) translateZ(0);
+  transition: transform 0.75s cubic-bezier(0.645, 0.045, 0.355, 1),
+    opacity 0.35s linear 0.3s;
+}
+
+.btn span:nth-of-type(2) em {
+  opacity: 0;
+  transform: rotateX(-90deg) scaleX(0.9) translate3d(0, 10px, 0);
+  transform-origin: bottom;
+}
