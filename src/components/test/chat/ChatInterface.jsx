@@ -13,7 +13,7 @@ import ChatHistoryModal from "./ChatHistoryModal";
 import ChatInput from "./ChatInput";
 import ProfileMenu from "./ProfileMenu";
 import SearchModal from "./SearchModal";
-import Settings from "./Settings";
+import Settings from "./settings";
 import AdvertisementPopup from "./AdvertisementPopup";
 import WebSearch from "./WebSearch";
 import WebSearchResponse from "./WebSearchResponse";
