@@ -21,7 +21,7 @@ import MainRyteComponent from "./components/Ryte/Index";
 import ReviewerLayout from "./components/CodeReviewer/ReviewerLayout";
 import ChatComponent from "./components/ChatMainBody/ChatComponent";
 import HeroSection from "./components/test/heroSection";
-import AboutSection from "./components/test/about";
+import AboutSection from "./components/test/About";
 
 import ContactPage from "./components/test/contact";
 import PricingPage from "./components/test/pricing";
