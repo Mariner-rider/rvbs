@@ -20,7 +20,7 @@ import { PDFViewerPanel } from "./PDFViewerPanel";
 import { ChatPanel } from "./ChatPanel";
 import { AuthContext } from "@/context/AuthContext";
 import ProfileMenu from "./ProfileMenu";
-import Settings from "./settings";
+import Settings from "./Settings";
 import ChatHistorySidebar from './ChatHistorySidebar';
 
 const API_BASE_URL = 'http://127.0.0.1:8000';

@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../context/AuthContext"; // Import your existing AuthContext
-import Settings from "./settings";
+import Settings from "./Settings";
 import {
   Sun,
   Moon,
