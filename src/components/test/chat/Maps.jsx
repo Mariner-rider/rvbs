@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import { Input } from "../../ui/Input";
+import { Input } from "../../ui/input";
 import { Button } from "../../ui/button";
 import { Search, MapPin, Menu, X, Bookmark, Navigation, Send, Share2, Clock, MoreVertical } from "lucide-react";
 
