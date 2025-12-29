@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { Search, Globe, Sparkles, Mic, MessageSquare, ArrowLeft } from 'lucide-react';
 import ChatHeader from './ChatHeader';
 import ProfileMenu from './ProfileMenu';
-import {Settings} from './Settings';
+import Settings from './Settings.jsx';
 import ChatHistoryModal from './ChatHistoryModal';
 import SearchModal from './SearchModal';
 

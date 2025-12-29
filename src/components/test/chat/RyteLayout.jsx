@@ -6,7 +6,7 @@ import { Editor } from "./NewRyte/Editor";
 import { EditorActions } from "./NewRyte/EditorActions";
 import { Menu } from "lucide-react";
 import ProfileMenu from "./ProfileMenu";
-import Settings from "./Settings";
+import Settings from "./Settings.jsx";
 import { AuthContext } from "../../../context/AuthContext";
 
 const RyteLayout = () => {
